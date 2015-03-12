@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Books</title>
+    <style>
+      form {
+          border: 2px solid blue;
+          width: 300px;
+      }
+    </style>
+</head>
+
+<body>
+</body>
+<h1>Books</H1>
+<a href="bookList">List of books</a>
+<br><A HREF="userList">List of users</a>
+<hr>
+Opinions:<br>
+<form method="get" action="opinionList">
+User: <input type="text" value="user" name="username">
+<input type="submit">
+</form>
+<br>
+<a href="opinionList">My opinions</a><br>
+<br>
+Login:<br>
+<form method="get" action="login">
+<pre>
+username: <input type="text" value="" name="username">
+password: <input type="password" value="" name="password">
+</pre>
+<input type="submit">
+</form>
+<br>
+Change password:<br>
+<form method="get" action="changePassword">
+<pre>
+Old password: <input type="password" value="" name="oldpassword">
+New password: <input type="password" value="" name="newpassword">
+</pre>
+<input type="submit">
+</form>
+<br>
+<a href="logout">Logout</a><br>
+</body>
+</html>
